@@ -10,7 +10,7 @@ typedef struct no {
 typedef struct fila{
     tno * comeco;
     tno * fim;
-    int size;
+    int size; //Isso é só para ter o tamanho da fila de forma mais facil sem precisar percorrer nó por nó.
 }tfila;
 
 void criar (tfila * ppf){
